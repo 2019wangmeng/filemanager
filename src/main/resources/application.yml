@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/filemanger?serverTimezone=UTC
+    username: root
+    password:
+  liquibase:
+    change-log: classpath:liquibase/master.xml
+    enabled: true
