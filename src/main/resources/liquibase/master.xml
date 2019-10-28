@@ -10,4 +10,5 @@
     <property name="floatType" value="float4" dbms="postgresql, h2"/>
     <property name="floatType" value="float" dbms="mysql, oracle, mssql, mariadb"/>
 
+    <include file="classpath:liquibase/changelog/initTable.xml" relativeToChangelogFile="false"/>
 </databaseChangeLog>
