@@ -26,7 +26,7 @@ public class FileInfo implements Serializable {
     private String fileExt; //文件扩展名
 
     @Column(name = "file_size")
-    private Integer fileSize;  //文件大小
+    private Long fileSize;  //文件大小
 
     @Column(name = "file_create_time")
     @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
